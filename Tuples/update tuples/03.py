@@ -1,0 +1,5 @@
+animals=("monkey","cat","dog","lion","elephant")
+y=list(animals)
+y.remove("cat")
+animals=tuple(y)
+print("Updated animals tuple: ",animals)
