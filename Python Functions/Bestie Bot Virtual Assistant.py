@@ -10,12 +10,4 @@ def virtual_bestie():
     fav_food=input("Waisa hain to ap foodie lakin Aj kiya aya apko passand: ")
     hobby=input("Enter your Hobby: ")
     bestie_Intro(Name=name,Song=fav_song,Food=fav_food,Hobby=hobby)
-def compliment():
-    compliments = [
-        "You're doing amazing, bestie! 💪",
-        "You're like sunshine on a cloudy day ☀️",
-        "You're not just smart, you're brilliant! 🧠💖"
-    ]
-    import random
-    print("\n✨ Compliment: " + random.choice(compliments))
 virtual_bestie()
